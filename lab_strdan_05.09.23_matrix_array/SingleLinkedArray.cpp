@@ -1,6 +1,6 @@
 #include "SingleLinkedArray.h"
 /*
-* сгенерировать список сост из 20 элем от -100 до 100 и удалить все отриц элементы0
+* hehehhe boy
 */
 
 void addToHead(Node*& head, int value)
