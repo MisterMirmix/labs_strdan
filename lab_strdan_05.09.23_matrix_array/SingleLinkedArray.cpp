@@ -24,7 +24,7 @@ bool isEmpty(Node* head)
 	return (!head);
 }
 
-void Print(Node* head)
+void print(Node* head)
 {
 	if (isEmpty(head))
 	{

@@ -1,0 +1,25 @@
+PAVEL1.M.P. science7 478 73 spec16
+PAVEL6.M.P. science9 1367 75 spec16
+PAVEL8.M.P. science1 1499 681 spec3
+PAVEL2.M.P. science3 1599 75 spec13
+PAVEL9.M.P. science10 1737 684 spec13
+PAVEL4.M.P. science1 1825 83 spec13
+PAVEL5.M.P. science8 1863 25 spec19
+PAVEL10.M.P. science8 1873 842 spec31
+PAVEL1.M.P. science6 1969 689 spec7
+PAVEL7.M.P. science5 1979 683 spec2
+PAVEL1.M.P. science0 1985 6 spec12
+PAVEL6.M.P. science3 1986 648 spec4
+PAVEL8.M.P. science2 1996 67 spec11
+PAVEL7.M.P. science3 1997 625 spec14
+PAVEL1.M.P. science1 1999 68 spec12
+PAVEL3.M.P. science4 1999 73 spec17
+PAVEL1.M.P. science6 1999 43 spec10
+PAVEL2.M.P. science9 2004 8 spec1
+PAVEL12.M.P. science1 2010 68 spec81
+>= 1999
+PAVEL1.M.P. science1 1999 68 spec12
+PAVEL3.M.P. science4 1999 73 spec17
+PAVEL1.M.P. science6 1999 43 spec10
+PAVEL2.M.P. science9 2004 8 spec1
+PAVEL12.M.P. science1 2010 68 spec81

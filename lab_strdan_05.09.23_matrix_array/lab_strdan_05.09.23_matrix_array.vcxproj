@@ -129,16 +129,30 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BLinkedArray.cpp" />
+    <ClCompile Include="Drunkard.cpp" />
+    <ClCompile Include="Queue.cpp" />
+    <ClCompile Include="ScienceFiction.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="Matrix.cpp" />
     <ClCompile Include="SingleLinkedArray.cpp" />
     <ClCompile Include="Stack.cpp" />
+    <ClCompile Include="Tree.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BLinkedArray.h" />
+    <ClInclude Include="Drunkard.h" />
     <ClInclude Include="Matrix.h" />
+    <ClInclude Include="Queue.h" />
+    <ClInclude Include="ScienceFiction.h" />
     <ClInclude Include="SingleLinkedArray.h" />
     <ClInclude Include="Stack.h" />
+    <ClInclude Include="Tree.h" />
+    <ClInclude Include="TreeNode.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="drunkard.txt" />
+    <Text Include="input.txt" />
+    <Text Include="output.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
