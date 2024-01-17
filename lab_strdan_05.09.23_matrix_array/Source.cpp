@@ -89,8 +89,10 @@ int main()
 	std::cout << "---------------------------";
 	std::cout << '\n';
 	
-	
-	
+	std::cout << (bool)t.search(-100);
+	std::cout << '\n';
+	std::cout << (bool)t.search(-1005555);
+	std::cout << '\n';
 	
 	return 0;
 }

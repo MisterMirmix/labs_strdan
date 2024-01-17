@@ -331,9 +331,35 @@ private:
 			preorderTraverse(ptr->left);
 			preorderTraverse(ptr->right);
 		}
-		
+	}
+
+	void search(BTNode* ptr, datatype value, BTNode*& result)
+	{
+		if (ptr != nullptr)
+		{
+			if (ptr->data == value)
+			{
+				result = ptr;
+				return;
+			}
+			if (ptr->data < value)
+			{
+				search(ptr->right, value, result);
+			}
+			if (ptr->data > value)
+			{
+				search(ptr->left, value, result);
+			}
+		}
 	}
 public:
+
+	BTNode* search(datatype value)
+	{
+		BTNode* result = nullptr;
+		search(root, value, result);
+		return result;
+	}
 
 	void print(int space = 0) {
 		print(root, space);
