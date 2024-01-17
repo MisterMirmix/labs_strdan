@@ -33,10 +33,10 @@ public:
     bool remove(std::string word);
 
     void printAllWordsThatStartWith(std::string prefix);
-
+    void printAllWordsWithSuffix(const std::string& suffix);
 private:
     void printAllWords(TrieNode* node, std::string word);
-
+    void printAllWordsWithSuffix(TrieNode* node, std::string word, const std::string& suffix);
     void printAllWordsThatStartWith(TrieNode* node, std::string prefix);
     bool remove(TrieNode* node, std::string& word, int level);
     bool isLastNode(TrieNode* node) const;

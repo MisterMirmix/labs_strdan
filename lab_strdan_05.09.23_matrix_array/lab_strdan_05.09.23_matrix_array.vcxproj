@@ -128,19 +128,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BLinkedArray.cpp" />
     <ClCompile Include="Drunkard.cpp" />
     <ClCompile Include="Menu.cpp" />
-    <ClCompile Include="Queue.cpp" />
     <ClCompile Include="ScienceFiction.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="Matrix.cpp" />
-    <ClCompile Include="SingleLinkedArray.cpp" />
-    <ClCompile Include="Stack.cpp" />
-    <ClCompile Include="Tree.cpp" />
     <ClCompile Include="Trie.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BalanceTree.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="Set.h" />
     <ClInclude Include="BLinkedArray.h" />
@@ -150,7 +146,6 @@
     <ClInclude Include="ScienceFiction.h" />
     <ClInclude Include="SingleLinkedArray.h" />
     <ClInclude Include="Stack.h" />
-    <ClInclude Include="Tree.h" />
     <ClInclude Include="TreeNode.h" />
     <ClInclude Include="Trie.h" />
   </ItemGroup>

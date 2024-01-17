@@ -1,12 +1,16 @@
 #pragma once
 #include <iostream>
 
+//template<typename datatype>
+//class BalanceTree;
+
 template<typename datatype>
 class BinaryTree;
 
 template <typename datatype>
 class TreeNode
 {
+	/*friend class BalanceTree<datatype>;*/
 	friend class BinaryTree<datatype>;
 	datatype data;
 	TreeNode<datatype>* left;
@@ -27,7 +31,7 @@ void visitt(datatype& a)
 template<typename datatype>
 class BinaryTree
 {
-	
+protected:
 	TreeNode<datatype>* root;
 public:
 	BinaryTree();

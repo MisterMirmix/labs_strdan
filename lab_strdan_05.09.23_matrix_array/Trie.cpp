@@ -57,6 +57,27 @@ void Trie::printAllWords(TrieNode* node, std::string word)
     }
 }
 
+void Trie::printAllWordsWithSuffix(const std::string& suffix)
+{
+    std::string word;
+    printAllWordsWithSuffix(root, word, suffix);
+}
+
+void Trie::printAllWordsWithSuffix(TrieNode* node, std::string word, const std::string& suffix)
+{
+    if (node->isEndOfWord) {
+        if((int)word.rfind(suffix) == word.length() - suffix.length())
+            std::cout << word << '\n';
+    }
+
+    for (int i = 0; i < ALPHABET_SIZE; i++) {
+        if (node->children[i]) {
+            char c = 'a' + i;
+            printAllWordsWithSuffix(node->children[i], word + c, suffix);
+        }
+    }
+}
+
 void Trie::printAllWordsThatStartWith(TrieNode* node, std::string prefix)
 {
     if (node == nullptr) {
