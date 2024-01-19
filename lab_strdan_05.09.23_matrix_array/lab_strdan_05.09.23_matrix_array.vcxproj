@@ -137,7 +137,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BalanceTree.h" />
+    <ClInclude Include="HeaderCycleBilinkedList.h" />
+    <ClInclude Include="HeaderLinkedList.h" />
     <ClInclude Include="Menu.h" />
+    <ClInclude Include="QueueMassiv.h" />
     <ClInclude Include="Set.h" />
     <ClInclude Include="BLinkedArray.h" />
     <ClInclude Include="Drunkard.h" />
@@ -146,6 +149,7 @@
     <ClInclude Include="ScienceFiction.h" />
     <ClInclude Include="SingleLinkedArray.h" />
     <ClInclude Include="Stack.h" />
+    <ClInclude Include="StackList.h" />
     <ClInclude Include="TreeNode.h" />
     <ClInclude Include="Trie.h" />
   </ItemGroup>

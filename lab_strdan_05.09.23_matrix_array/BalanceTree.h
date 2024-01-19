@@ -1,5 +1,5 @@
 #pragma once
-#include "TreeNode.h"
+
 #include "Queue.h"
 #include "Stack.h"
 
@@ -66,27 +66,21 @@ private:
 
 	BTNode* balance(BTNode* p)
 	{
-
 		fixHeight(p);
 		if (balanceFactor(p) == -2)
-		{
-			
+		{		
 			if (balanceFactor(p->right) > 0)
 			{
 				p->right = RRotate(p->right);
-				/*std::cout << "p" << p->data;*/
 			}
-			///*std::cout << "l" << p->data;*/
 			return LRotate(p);
 		}
 		if (balanceFactor(p) == 2)
 		{
 			if (balanceFactor(p->left) < 0)
 			{
-				/*std::cout << "l" << p->data;*/
 				p->left = LRotate(p->left);
 			}
-			/*std::cout << "p" << p->data;*/
 			return RRotate(p);
 		}
 		return p;
